@@ -1,0 +1,9 @@
+local CLASS = Clockwork.class:New("Civillian");
+CLASS.color = Color(255, 191, 0, 255);
+CLASS.wages = 0;
+CLASS.factions = {FACTION_CIVI};
+CLASS.isDefault = true;
+CLASS.wagesName = "Requisition";
+CLASS.description = "A civillian.";
+CLASS.defaultPhysDesc = "Big black goldendoodle with the name Dora.";
+CLASS_CIVI = CLASS:Register();
